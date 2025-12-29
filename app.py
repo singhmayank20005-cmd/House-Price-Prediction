@@ -24,7 +24,7 @@ st.sidebar.image('https://cdn.dribbble.com/userupload/25169331/file/original-fba
 all_value=[]
 for i in final_X:
   min_value= final_X [i].min()
-  max_vaule= final_X [i].max()
+  max_value= final_X [i].max()
   result=st.sidebar.slider(f'Select{i} value',min_value,max_value)
  
   all_value.append(result)
@@ -49,6 +49,7 @@ ts.markdown('''**Design and developed by: Mayank Singh**''')
 
 
  
+
 
 
 
